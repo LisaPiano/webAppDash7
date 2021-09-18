@@ -491,7 +491,6 @@ input.cmn-toggle-round + label:after {
 input.cmn-toggle-round + label:before {
   display: block;
   position: absolute;
-  content: "ON";
   right: 1px;
   background-color:  rgb(104, 129, 238);
   border-radius: 60px;
@@ -515,6 +514,10 @@ input.cmn-toggle-round:checked + label:before {
 
 input.cmn-toggle-round:checked + label:after {
   margin-left: -45px;
+}
+
+span {
+  margin-left: -2px; 
 }
 
 
